@@ -75,4 +75,6 @@ while x and y:
 with open('./Day6/result_file.txt', 'w') as file:
     lines = '\n'.join([''.join(line) for line in obstacle_global_map])
     file.writelines(lines)
+
+# to find: 1928
 print(count)
