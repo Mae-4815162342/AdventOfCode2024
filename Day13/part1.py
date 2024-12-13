@@ -51,6 +51,7 @@ for id in machines.keys():
     A, B, prize = machines[id]
     valid_combination, nA, nB = minimize_price(A, B, prize, 0, 0)
     if valid_combination:
+        print(id)
         tokens += nA*3 + nB
 
 print(tokens)
